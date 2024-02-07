@@ -1,0 +1,39 @@
+.header {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  &__image {
+    width: 65px;
+    height: 20px;
+  }
+  &__list {
+    display: flex;
+    min-width: 512px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-left: -125px;
+    & li {
+      margin-right: 64px;
+    }
+    & li:last-child {
+      margin: 0;
+    }
+    & li a {
+      color: #fff;
+      &:hover {
+        color: #8c8b8b;
+      }
+    }
+  }
+  &__nav {
+    width: 112px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__nav img {
+    width: 24px;
+    height: 24px;
+  }
+}

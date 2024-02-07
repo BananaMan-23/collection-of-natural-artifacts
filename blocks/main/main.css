@@ -1,0 +1,202 @@
+.main__page {
+  position: relative;
+  background: linear-gradient(rgba(255, 255, 255, 0.7), rgb(0, 0, 0)), url(../../image/header.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top;
+  max-width: 100%;
+  margin-bottom: 60px;
+}
+.main__page .main__title {
+  font-family: Cormorant;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+  margin-bottom: 16px;
+}
+.main__page .main__subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+.main__page .source {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21.79px;
+  color: #bae249;
+  max-width: 160px;
+}
+.main__page .source::after {
+  content: url(../../image/header_arrow.svg);
+  position: relative;
+  top: 3px;
+  left: 10px;
+}
+.main__page .main__block {
+  width: 688px;
+  display: flex;
+  flex-direction: column;
+  padding: 115px 0 250px 100px;
+}
+.main__list {
+  max-width: 1110px;
+  margin: 0 auto 57px;
+}
+.main__list ul {
+  display: flex;
+}
+.main__list_item {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-between;
+  flex: 0 1 25%;
+  margin-right: 30px;
+  margin-bottom: 26px;
+  border: 1px solid #0b1919;
+}
+.main__list_item_title {
+  font-family: Cormorant;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 8px;
+  padding: 0 16px;
+}
+.main__list_item_subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #899d9d;
+  padding: 0 16px;
+}
+.main__list_item_button {
+  padding: 10.5px 28.5px;
+  border: 1px solid #bae249;
+  background-color: #1d2f30;
+  color: #bae249;
+  margin: 15px auto 24px 16px;
+}
+.main__list_item_image {
+  background-color: #0b1919;
+  margin-bottom: 16px;
+  width: 255px;
+  height: 180px;
+}
+.main__list_slider {
+  font-family: Cormorant;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  justify-content: center;
+}
+.main__list_slider p::after {
+  content: url(../../image/Arrow_right.svg);
+  position: relative;
+  left: 30px;
+  top: 2px;
+}
+.main__list_slider p::before {
+  content: url(../../image/Arrow_left.svg);
+  position: relative;
+  right: 30px;
+  top: 2px;
+}
+.main__artifacts {
+  max-width: 1110px;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  align-items: flex-end;
+}
+.main__artifacts_guide {
+  margin-right: 30px;
+}
+.main__artifacts_guide h2 {
+  font-family: Cormorant;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  margin-bottom: 30px;
+}
+.main__artifacts_guide img {
+  max-width: 825px;
+}
+.main__artifacts_note {
+  background-color: #bae249;
+  color: #506829;
+  display: flex;
+  flex-direction: column;
+}
+.main__artifacts_note h3 {
+  font-family: Cormorant;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  color: #1d2f30;
+  margin: 25px 0 8px 16px;
+}
+.main__artifacts_note p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0 16px 15px 16px;
+}
+.main__artifacts_note a {
+  margin: 60px 0 24px 16px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21.79px;
+  color: #0b1919;
+}
+.main__artifacts_note a::after {
+  content: url(../../image/Arrow_artifacts.svg);
+  position: relative;
+  top: 3px;
+  left: 8px;
+}
+.main__source {
+  position: relative;
+  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.5)), url(../../image/footer.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+}
+.main__source_info {
+  margin: 0 0 24px 120px;
+}
+.main__source_info h2 {
+  font-family: Cormorant;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  padding: 60px 0 16px 0;
+}
+.main__source_info p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 825px;
+  margin: 0 0 24px 0;
+}
+.main__source_form {
+  max-width: 350px;
+  padding: 0 0 60px 120px;
+}
+.main__source_form input {
+  margin: 0 0 24px 0;
+  padding: 10.5px 180px 10.5px 16px;
+}
+.main__source_form button {
+  padding: 11.5px 26px;
+  background-color: #bae249;
+  color: #0b1919;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21.79px;
+}/*# sourceMappingURL=main.css.map */

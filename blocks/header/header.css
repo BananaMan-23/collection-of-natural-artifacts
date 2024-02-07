@@ -1,0 +1,39 @@
+.header {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+.header__image {
+  width: 65px;
+  height: 20px;
+}
+.header__list {
+  display: flex;
+  min-width: 512px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-left: -125px;
+}
+.header__list li {
+  margin-right: 64px;
+}
+.header__list li:last-child {
+  margin: 0;
+}
+.header__list li a {
+  color: #fff;
+}
+.header__list li a:hover {
+  color: #8c8b8b;
+}
+.header__nav {
+  width: 112px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__nav img {
+  width: 24px;
+  height: 24px;
+}/*# sourceMappingURL=header.css.map */
